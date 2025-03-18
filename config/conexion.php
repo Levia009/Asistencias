@@ -45,7 +45,7 @@ $database = Database::getInstance(); // Obtener la única instancia
 $db = $database->getConnection();
 
 if ($db) {
-    echo "Conexión exitosa a la base de datos.";
+    //echo "Conexión exitosa a la base de datos.";
 } else {
     echo "Error al conectar a la base de datos.";
 }
